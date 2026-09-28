@@ -1,16 +1,59 @@
-# React + Vite
+# React Props and Prop Drilling
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## 📌 Task
 
-Currently, two official plugins are available:
+### Title: Responsive React UI Using Props and Prop Drilling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Objective
 
-## React Compiler
+Create a responsive React user interface by using basic React concepts such as **Components, Props, and Prop Drilling**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📋 Requirements
 
-## Expanding the Oxlint configuration
+- Create three user cards.
+- Each card should contain:
+  - User Name
+  - User Email
+  - Button
+- Use reusable React components to create the cards.
+- Pass the user details using **Props**.
+- Implement **Prop Drilling** to pass data between components.
+- Create a responsive layout for:
+  - Desktop view
+  - Mobile view
+- Replicate the given UI design as closely as possible.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ⚛️ React Concepts Used
+
+- React Components
+- JSX
+- Props
+- Prop Drilling
+- Reusable Components
+- Responsive Design
+
+## 💻 Technologies Used
+
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Vite
+
+## 📱 Responsive Layout
+
+### Desktop View
+
+The three user cards should be displayed horizontally in a row.
+
+### Mobile View
+
+The three user cards should be displayed vertically in a column.
+
+## 🎯 Expected Result
+
+The application should display three responsive user cards containing the user's **name, email, and button**, with the data passed between components using **Props and Prop Drilling**.
+
+## 📚 Learning Outcome
+
+This task helps understand the fundamentals of React component communication using **Props and Prop Drilling**, along with creating reusable and responsive UI components.
